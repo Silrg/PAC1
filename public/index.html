@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>PAC1 SILVIA</title>
+</head>
+<body>
+    <div id="barra-busqueda"></div>
+      <h3>Añade nueva pelicula</h3>
+   
+      <input type="text" placeholder="nombre"class="input-buscar" id="nombre" />
+      <input type="text" placeholder="imagen"class="input-buscar" id="imagen" />
+      <input type="text" placeholder="director"class="input-buscar" id="director" />
+      <input type="text" placeholder="distribuidor"class="input-buscar" id="distribuidor" />
+      <input type="num" placeholder="anyo"class="input-buscar" id="anyo" />
+      <input type="num" placeholder="duracion"class="input-buscar" id="duracion" />
+      <button id="boton-buscar" onclick="insertar()">Añadir</button>
+      
+    </div>
+    <div id="barra-busqueda">
+        <h3>Busca por película</h3>
+        <input type="text" placeholder="pelicula" class="input-buscar" id="itemBuscar" />
+        <button id="boton-buscar" onclick="buscarPelicula()">Buscar</button>
+    </div>
+
+    <h3>Edita pelicula existente</h3>
+    <input type="text" placeholder="nombre"class="input-buscar" id="nombreEditar" />
+    <input type="text" placeholder="imagen"class="input-buscar" id="imagenEditar" />
+    <input type="text" placeholder="director"class="input-buscar" id="directorEditar" />
+    <input type="text" placeholder="distribuidor"class="input-buscar" id="distribuidorEditar" />
+    <input type="num" placeholder="anyo"class="input-buscar" id="anyoEditar" />
+    <input type="num" placeholder="duracion"class="input-buscar" id="duracionEditar" />
+    <button id="boton-buscar" onclick="editar()">Editar</button>
+
+    <h3>Borrar película</h3>
+    <input type="text" placeholder="nombre"class="input-buscar" id="nombreBorrar" />
+    <button id="boton-buscar" onclick="borrar()">Borrar</button>
+    <div id="print">
+    </div>
+
+</body>
+<script src="./demo.js"></script>
+
+</html>

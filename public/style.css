@@ -1,0 +1,65 @@
+#print {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    background-size: cover;
+    box-shadow:  0 10px 20px 0 black;
+
+}
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: fit-content;
+    max-width: 100%;
+    height: 100%;
+    margin: 15px;
+    padding:10px;
+    box-shadow:  0 10px 20px 0 rgb(233, 217, 217);
+    border: solid black 3px;
+    border-radius: 10px;
+    background-color: #41091A;
+    text-align: center
+}
+#img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #080707;
+    border-radius: 5px;
+}
+  
+#card:hover {
+    background-color: #9E0A24;
+    font-style: italic;
+    }
+
+body {
+    background-image: url("https://fondosmil.com/fondo/23853.jpg");
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h2{
+    color: rgb(211, 211, 223);
+    font-style:  sans-serif;
+    text-decoration: underline;
+}
+h3{
+    color:aliceblue;
+}
+
+
+.input-buscar{
+    background-color:#DBDDD0;
+    border-radius: 5px;
+    border-color: #080707;
+}
+#boton-buscar{
+    background-color: rgb(174, 215, 238);
+    border-radius: 2px;
+    border-color:  #293F88;
+}
